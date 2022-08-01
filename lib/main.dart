@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:newproject/DataInput.dart';
 import 'package:newproject/FunctionRun.dart';
+import 'package:newproject/InputField.dart';
 import 'package:newproject/IntrativePage.dart';
 import 'package:newproject/StatefullAndButtons.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const DataInput(),
+      home: const InputField(),
     );
   }
 }
