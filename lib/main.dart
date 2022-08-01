@@ -3,6 +3,7 @@ import 'package:newproject/DataInput.dart';
 import 'package:newproject/FunctionRun.dart';
 import 'package:newproject/InputField.dart';
 import 'package:newproject/IntrativePage.dart';
+import 'package:newproject/ListViewPage.dart';
 import 'package:newproject/StatefullAndButtons.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const InputField(),
+      home: const LIstViewPage(),
     );
   }
 }
